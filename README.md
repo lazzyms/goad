@@ -100,10 +100,10 @@ be overwrite these settings.
 ```ini
 [general]
 #url = http://example.com/
-timeout = 3600
+timeout = 15
 concurrency = 10
 requests = 1000
-timelimit = 15
+timelimit = 3600
 json-output = test-result.json
 method = GET
 body = Hello world
